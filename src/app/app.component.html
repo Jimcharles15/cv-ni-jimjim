@@ -27,7 +27,7 @@
       type="text/css"
     />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="rel" ="stylesheet" />
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -90,11 +90,13 @@
       <section class="resume-section" id="about">
         <div class="resume-section-content">
           <hello name="{{ name }}"></hello>
-
-          <h1 class="mb-0">
+          <h1>
             {{ appName }}
             <span class="text-primary">Morales</span>
           </h1>
+
+          <input type="text" [value]="clientName" />
+
           <div class="subheading mb-5">
             43 Gordon st. New Banicain Olongapo City
             <a href="mailto:name@email.com">jimcharlesmorales15@gmail.com</a>
